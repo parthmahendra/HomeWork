@@ -1,0 +1,39 @@
+@media screen and (min-width: 1024px) {
+    .mdl-layout__header {
+        display: none;
+    }
+
+    .content {
+        margin: auto;
+        width: 95%;
+        margin-top: 0 !important;
+        margin-bottom: 5% !important;
+    }
+}
+
+.content {
+    margin: auto;
+    width: 95%;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.mdl-card {
+    min-height: 0 !important;
+}
+
+.mdl-navigation__link {
+    /*text-align: center;*/
+    margin: auto;
+}
+
+.footer {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logout {
+    color:red !important
+}

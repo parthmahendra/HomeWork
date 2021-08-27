@@ -1,0 +1,259 @@
+.my-button {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 15%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 15%);
+    border: none;
+    border-radius: 4px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    vertical-align: middle !important;
+    background: rgb(63,81,181);
+    color: rgb(255,255,255);
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.my-text-label {
+    bottom: 0;
+    color: rgba(0,0,0,.26);
+    font-size: 16px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 24px;
+}
+
+
+.my-text-input {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    display: block;
+    font-size: 16px;
+    font-family: "Helvetica","Arial",sans-serif;
+    margin: 0;
+    padding: 4px 0;
+    width: 100%;
+}
+
+
+.my-button, .my-text-input {
+    -webkit-writing-mode: horizontal-tb !important;
+    -webkit-tap-highlight-color: rgba(255,255,255,0) !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.my-card {
+    background: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 15%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 15%);
+    flex-direction: column;
+}
+
+.my-title {
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: stretch;
+    line-height: normal;
+    padding: 16px;
+}
+
+.my-title-text {
+    /*display: flex;*/
+    font-size: 22px;
+    line-height: normal;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+a {
+    color: rgb(255,64,129);
+    text-decoration: underline;
+}
+
+.my-supporting-text{
+    color: rgba(0,0,0,.54);
+    font-size: 1rem;
+    line-height: 18px;
+    padding: 16px;
+}
+
+.my-textfield {
+    position: relative;
+    font-size: 16px;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.my-text-error {
+    color: red;
+    position: absolute;
+    font-size: 12px;
+    margin-top: -15px;
+    visibility: hidden;
+    display: block;
+}
+
+.is-invalid > .my-text-error {
+    visibility: visible;
+}
+
+.cell-non-numeric {
+    text-align: left !important;
+}
+
+.my-checkbox {
+    filter: hue-rotate(30deg);
+    transform: scale(1.5);
+    padding: initial;
+    outline: none;
+    border: initial;
+}
+
+.my-checkbox :checked {
+    color: rgb(63,81,181);
+}
+
+.my-data-table {
+    position: relative;
+    border: 1px solid rgba(0,0,0,.12);
+    border-collapse: collapse;
+    white-space: nowrap;
+    font-size: 13px;
+    background-color: #fff;
+}
+
+.my-data-table thead {
+    padding-bottom: 3px;
+}
+
+.my-data-table th {
+    padding: 0 18px 12px 18px;
+    position: relative;
+    vertical-align: bottom;
+    text-overflow: ellipsis;
+    line-height: 24px;
+    height: 48px;
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+    box-sizing: border-box;
+}
+
+.my-data-table tbody tr {
+    position: relative;
+    height: 48px;
+    border-top:1px solid rgba(0,0,0,.12);
+}
+
+.cell-checkbox {
+    text-align: right;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+.my-radio {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 24px;
+    margin: 0;
+    filter: hue-rotate(15deg);
+}
+
+.my-list {
+    display: block;
+    padding: 0 0;
+    list-style: none;
+}
+
+.my-list-item {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: nowrap;
+    padding: 16px;
+    cursor: default;
+    color: rgba(0,0,0,.9);
+    overflow: hidden;
+    letter-spacing: .04em;
+    line-height: 1;
+    min-height: 48px;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+}
+
+.my-list-item, .my-list-item .my-list-item-primary {
+    box-sizing: border-box;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+
+}
+
+.my-list-item .my-list-item-primary {
+    order: 0;
+    -webkit-flex-grow: 2;
+    flex-grow: 2;
+    text-decoration: none;
+}
+
+.my-list-item-two .my-list-item-primary {
+    height: 36px;
+    line-height: 20px;
+    display: block;
+}
+
+.my-list-item-two .my-list-item-primary .my-list-item-sub {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    color: rgba(0,0,0,.5);
+    display: block;
+    padding: 0;
+}
+
+.my-list-item .my-list-icon {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    margin-left: 16px;
+}
+
+.taskName {
+    color: rgb(63,81,181) !important;
+}

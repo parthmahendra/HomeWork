@@ -1,0 +1,17 @@
+.list {
+    width: 100%;
+}
+
+.my-list {
+    width: 100% !important;
+}
+
+
+.list_item {
+    margin-left: 16px;
+    letter-spacing: 0;
+}
+
+.my-list-item-primary {
+    height: fit-content !important;
+}
